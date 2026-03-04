@@ -30,3 +30,14 @@ build $build_dir/2024/s4.o: cxx $src_dir/2024/s4.cpp
 build $build_dir/2024/s4: link $build_dir/2024/s4.o
 build $build_dir/2024/s5.o: cxx $src_dir/2024/s5.cpp
 build $build_dir/2024/s5: link $build_dir/2024/s5.o
+
+build $build_dir/2025/j1.o: cxx $src_dir/2025/j1.cpp
+build $build_dir/2025/j1: link $build_dir/2025/j1.o
+build $build_dir/2025/j2.o: cxx $src_dir/2025/j2.cpp
+build $build_dir/2025/j2: link $build_dir/2025/j2.o
+build $build_dir/2025/j3.o: cxx $src_dir/2025/j3.cpp
+build $build_dir/2025/j3: link $build_dir/2025/j3.o
+build $build_dir/2025/j4.o: cxx $src_dir/2025/j4.cpp
+build $build_dir/2025/j4: link $build_dir/2025/j4.o
+build $build_dir/2025/j5.o: cxx $src_dir/2025/j5.cpp
+build $build_dir/2025/j5: link $build_dir/2025/j5.o
