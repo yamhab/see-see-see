@@ -52,3 +52,14 @@ build $build_dir/2025/s4.o: cxx $src_dir/2025/s4.cpp
 build $build_dir/2025/s4: link $build_dir/2025/s4.o
 build $build_dir/2025/s5.o: cxx $src_dir/2025/s5.cpp
 build $build_dir/2025/s5: link $build_dir/2025/s5.o
+
+build $build_dir/2026/s1.o: cxx $src_dir/2026/s1.cpp
+build $build_dir/2026/s1: link $build_dir/2026/s1.o
+build $build_dir/2026/s2.o: cxx $src_dir/2026/s2.cpp
+build $build_dir/2026/s2: link $build_dir/2026/s2.o
+build $build_dir/2026/s3.o: cxx $src_dir/2026/s3.cpp
+build $build_dir/2026/s3: link $build_dir/2026/s3.o
+build $build_dir/2026/s4.o: cxx $src_dir/2026/s4.cpp
+build $build_dir/2026/s4: link $build_dir/2026/s4.o
+build $build_dir/2026/s5.o: cxx $src_dir/2026/s5.cpp
+build $build_dir/2026/s5: link $build_dir/2026/s5.o
